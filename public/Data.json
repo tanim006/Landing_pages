@@ -1,0 +1,75 @@
+[
+    {
+      "img": "https://i.ibb.co.com/wrwQDML1/card1.png",
+      "foodName": "Cheese Burger",
+      "description": "Juicy grilled beef patty with melted cheese, fresh lettuce, and special sauce.",
+      "price": 5.99
+    },
+    {
+      "img": "https://i.ibb.co.com/B5tPSy5c/card2.png",
+      "foodName": "Creamy Alfredo Pasta",
+      "description": "Delicious fettuccine pasta tossed in a rich and creamy Alfredo sauce.",
+      "price": 8.49
+    },
+    {
+      "img": "https://i.ibb.co.com/Vcq61TjH/card3.png",
+      "foodName": "Salmon Sushi",
+      "description": "Fresh salmon slices over seasoned rice, served with soy sauce and wasabi.",
+      "price": 12.99
+    },
+    {
+      "img": "https://i.ibb.co.com/ZRFC5GJq/card4.png",
+      "foodName": "Pepperoni Pizza",
+      "description": "Classic pizza topped with mozzarella cheese and spicy pepperoni slices.",
+      "price": 10.99
+    },
+    {
+      "img": "https://i.ibb.co.com/S47xH4QZ/card5png.png",
+      "foodName": "Chicken Tacos",
+      "description": "Soft tortillas filled with grilled chicken, avocado, and homemade salsa.",
+      "price": 7.99
+    },
+    {
+      "img": "https://i.ibb.co.com/1hRgvFH/card6.png",
+      "foodName": "Spicy Miso Ramen",
+      "description": "Rich miso broth with tender noodles, soft-boiled egg, and sliced pork belly.",
+      "price": 9.49
+    },
+    {
+      "img": "https://i.ibb.co.com/wrwQDML1/card1.png",
+      "foodName": "Greek Salad",
+      "description": "Fresh cucumbers, tomatoes, olives, and feta cheese drizzled with olive oil.",
+      "price": 6.99
+    },
+    {
+      "img": "https://i.ibb.co.com/B5tPSy5c/card2.png",
+      "foodName": "Grilled Steak",
+      "description": "Tender and juicy grilled steak served with garlic butter and mashed potatoes.",
+      "price": 14.99
+    },
+    {
+      "img": "https://i.ibb.co.com/Vcq61TjH/card3.png",
+      "foodName": "Steamed Dumplings",
+      "description": "Soft dumplings filled with seasoned pork and vegetables, served with soy sauce.",
+      "price": 8.99
+    },
+    {
+      "img": "https://i.ibb.co.com/ZRFC5GJq/card4.png",
+      "foodName": "Chocolate Ice Cream",
+      "description": "Creamy and rich chocolate ice cream topped with chocolate chips.",
+      "price": 4.99
+    },
+    {
+      "img": "https://i.ibb.co.com/S47xH4QZ/card5png.png",
+      "foodName": "Fluffy Pancakes",
+      "description": "Golden brown pancakes served with maple syrup and fresh berries.",
+      "price": 7.49
+    },
+    {
+      "img": "https://i.ibb.co.com/1hRgvFH/card6.png",
+      "foodName": "Crispy Fried Chicken",
+      "description": "Crispy golden-brown fried chicken served with coleslaw and dipping sauce.",
+      "price": 9.99
+    }
+  ]
+  

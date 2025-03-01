@@ -1,39 +1,33 @@
 import React from 'react';
 import headerImg from '../../../public/FlabourHub/headerimg.png'
+import banner1 from '../../../public/FlabourHub/banner 1.png'
+import banner2 from '../../../public/FlabourHub/bannerpart2.png'
+
+import { GoStarFill } from "react-icons/go";
 
 const HUBbanner1 = () => {
     return (
-        <div>
-             <div>
-            {/* Header Section */}
-            <div className='lg:flex items-center space-x-5 p-5'>
-                <h1 className='lg:text-8xl text-5xl quando lg:mt-15 mt-10 lg:w-2/3 border w-full'>
-                Enjoy
-                </h1>
-                <h1>
-                    <img src={headerImg} alt="" />
-                </h1>
-                <img src="" alt="" />
-                <div className='lg:w-1/2 w-full'>
-                    <p className='liter  lg:text-xl'>
-                        At Sneaker Haven, we believe sneakers are more than just footwear—they’re a statement. 
-                        Whether you're a sneakerHead chasing the latest drops or someone who values both style 
-                        and comfort, we’ve got the perfect pair for you. From timeless classics to cutting-edge designs, 
-                        step into a world where every sneaker tells a story.
-                    </p>
-                    <button className='btn bg-black text-white mt-5 roboto w-24 h-12'>See more</button>
-                    <button className='btn bg-white text-black border-black ml-5 mt-5 roboto w-24 h-12'>Explore</button>
-                </div>
+        <div className='mt-16 '>
+           <div className='lg:flex justify-between items-center '>
+           <div>
+           <div className='lg:flex items-center'>
+                <h1 className='lg:text-9xl text-6xl ml-5 lg:ml-0 quando'>Enjoy</h1>
+                <img src={headerImg} alt="" className='w-28 h-28 ml-7 hidden lg:block' />
             </div>
-
-            {/* Image Section (Responsive) */}
-            <div className='flex flex-col lg:flex-row items-center gap-5 p-5'>
-                <img className='w-full lg:w-1/2 h-auto object-cover' src="" alt="Red Sneakers" />
-                <img className='w-full lg:w-1/2 h-auto object-cover' src="" alt="Yellow Sneakers" />
+            <h1 className='lg:text-9xl text-6xl ml-5 lg:ml-0 quando line mt-2'>Your Food</h1>
+            <div className='lg:flex items-center ml-5 lg:mt-5 mt-2 '>
+            <p className='text-lg poppins w-80 text-[#5C5C5C]'>Purest food experience focusing on premium quality ingredient </p>
+            <a className="btn  bg-[#FB5C60] text-white  poppins rounded-lg roboto lg:w-40 lg:h-14 p-5 lg:p-0 mt-4 lg:mt-4">Check menu</a>
             </div>
-            
-        </div>
-            
+            <div className='flex items-center mb-5 lg:mb-0 ml-5 mt-5 font-semibold'>
+            <p className='text-base poppins'>our happy customer</p>
+            <GoStarFill className='text-[#FDC405] ml-2 text-2xl mr-1'/>
+            <p>4.8</p>
+            <p className='text-red-500'>(5k Reviews)</p>
+            </div>
+           </div>
+            <img src={banner2} alt="" />
+           </div>
         </div>
     );
 };
